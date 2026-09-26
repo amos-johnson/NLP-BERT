@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amos-johnson/NLP-BERT/blob/main/notebooks/gammaBERT.ipynb)
 
-This is a group project for course **D7046E**. We used transfer learning on a pre-trained BERT model to classify the sentiment of short product reviews, then built **gammaBot**, a small voice chatbot. gammaBot reads out a fun fact, classifies how you feel about it and responds to match.
+Transfer learninging was used on a pre-trained BERT model to classify the sentiment of short product reviews, then built **gammaBot**, a small voice chatbot. gammaBot reads out a fun fact, classifies how you feel about it and responds to match.
 
 **94% test accuracy** on held-out Amazon reviews (96% best validation accuracy).
 
@@ -48,7 +48,7 @@ Because BERT's weights stay frozen, the classification head alone reaches 94% af
 
 The notebook is designed for **Google Colab with a GPU runtime**. Click the badge above, then choose *Runtime → Change runtime type → GPU*. The first cell installs its dependencies and downloads the dataset.
 
-To run it locally instead, use `pip install -r requirements.txt`. The notebook dates from early 2020, so newer `transformers` versions may need small changes. For example, models now return output objects instead of tuples.
+To run it locally instead, use `pip install -r requirements.txt`.
 
 ## Team
 
